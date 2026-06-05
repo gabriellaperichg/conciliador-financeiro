@@ -1,0 +1,17 @@
+# ============================================================
+# CONFIGURAÇÃO DA CONCILIAÇÃO — edite aqui todo mês
+# ============================================================
+
+unidade: "Londrina"       # Londrina | Maringá (exatamente como aparece no corporativo)
+banco: "BTG"              # BTG | Itaú
+mes: 5                   # número do mês (1 a 12)
+
+# Caminhos dos arquivos — coloque os arquivos na mesma pasta que este config
+arquivo_corporativo: "Base Corporativo.xlsx"
+arquivo_banco: "Base BTG - Londrina.xlsx"
+
+# Nome do arquivo de saída (será criado automaticamente)
+saida: "Conciliacao_Londrina_Maio.xlsx"
+
+# Técnico: similaridade mínima de nome para aceitar match sem centavos (0-100)
+limiar_nome: 60
